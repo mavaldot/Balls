@@ -1,6 +1,6 @@
 package thread;
 
-import application.WindowController;
+import controller.WindowController;
 import javafx.application.Platform;
 import model.Ball;
 

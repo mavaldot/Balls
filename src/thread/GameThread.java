@@ -1,6 +1,6 @@
 package thread;
 
-import application.WindowController;
+import controller.WindowController;
 import javafx.application.Platform;
 import model.Game;
 
@@ -17,8 +17,10 @@ public class GameThread extends Thread {
 	public void run() {
 		
 		while (!game.checkWon()) {	
-			game.countBounces();
+			// Do nothing
 		}
+		
+		game.countBounces();
 		
 		Platform.runLater(() -> wc.stop());
 		
