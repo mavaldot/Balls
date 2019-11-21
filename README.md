@@ -1,6 +1,6 @@
 # Balls
 
-the paramters for the txt file are: diameter, x, y, wait time, vx, vy, bounces, stopped
+the parameters for the txt file are: diameter, x, y, wait time, vx, vy, bounces, stopped
 
 diameter: the diameter of the ball
 x: the x-coordinate position
